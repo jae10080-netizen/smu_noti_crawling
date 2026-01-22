@@ -53,3 +53,4 @@ complement_data = pd.DataFrame(data=data, columns=["title", "date", "category", 
 
 
 complement_data.to_csv("smu_notice.csv", index=False, encoding="utf-8-sig")
+fg.rss_file('docs/rss.xml')
