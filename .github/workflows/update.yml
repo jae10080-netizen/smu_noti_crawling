@@ -46,4 +46,4 @@ jobs:
         verbose: true
         jekyll: false
       env:
-        GITHUB_TOKEN: ${{ secrets.TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.token }}
